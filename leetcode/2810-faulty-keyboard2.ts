@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/faulty-keyboard/
  */
 
-function finalString(s: string): string {
+function finalString2(s: string): string {
   if (!s) return "";
 
   let order = "",
