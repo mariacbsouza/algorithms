@@ -8,5 +8,8 @@
   },
   "author": "mariaclarabs",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
 }
