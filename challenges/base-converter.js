@@ -1,4 +1,4 @@
-import { StackArray } from "../../../data-structure/stack-array.js";
+import { StackArray } from "../data-structures/stack-array.js";
 
 const baseConverter = (decimalNumber, base = 2) => {
   if (!(base >= 2 && base <= 36)) {
