@@ -11,7 +11,7 @@ class ListNode {
   }
 }
 
-function addTwoNumbers2(l1: ListNode | null | undefined, l2: ListNode | null | undefined): ListNode | null | undefined {
+function addTwoNumbers(l1: ListNode | null | undefined, l2: ListNode | null | undefined): ListNode | null | undefined {
   let head;
   let current = new ListNode();
   let carry = 0;

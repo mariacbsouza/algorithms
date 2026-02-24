@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/
  */
 
-function countStudents1(students: number[], sandwiches: number[]): number {
+function countStudents(students: number[], sandwiches: number[]): number {
   let circular = 0,
     square = 0;
 

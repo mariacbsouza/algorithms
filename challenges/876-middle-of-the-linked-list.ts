@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/middle-of-the-linked-list/
  */
 
-function middleNode2(head: ListNode | null | undefined): ListNode | null | undefined {
+function middleNode(head: ListNode | null | undefined): ListNode | null | undefined {
   let current = head;
   let size = 1;
   let middle = 1;

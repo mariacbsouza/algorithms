@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/reverse-linked-list/
  */
-function reverseList2(head: ListNode | null): ListNode | null {
+function reverseList(head: ListNode | null): ListNode | null {
   let previous = null;
 
   while (head?.next) {

@@ -7,7 +7,7 @@
  * var param_1 = obj.ping(t)
  */
 
-class RecentCounter1 {
+class RecentCounter {
   queue: number[];
 
   constructor() {

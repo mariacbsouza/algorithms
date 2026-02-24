@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/swap-nodes-in-pairs/
  */
 
-function swapPairs2(head: ListNode | null): ListNode | null {
+function swapPairs(head: ListNode | null): ListNode | null {
   let current = head;
   let previous;
 

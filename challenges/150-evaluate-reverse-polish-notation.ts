@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/evaluate-reverse-polish-notation/
  */
-function evalRPN1(tokens: string[]): number {
+function evalRPN(tokens: string[]): number {
   const stack: number[] = [];
 
   for (let token of tokens) {

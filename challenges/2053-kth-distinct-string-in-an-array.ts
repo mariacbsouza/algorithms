@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/kth-distinct-string-in-an-array/
  */
-function kthDistinct2(arr: string[], k: number): string {
+function kthDistinct(arr: string[], k: number): string {
   if (!arr || !k) return "";
 
   const dict: { [word: string]: number } = {};
